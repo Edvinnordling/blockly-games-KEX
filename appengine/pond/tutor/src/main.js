@@ -179,13 +179,13 @@ function getAvatarData() {
     // Level 1.
     [
       {
-        start: new Blockly.utils.Coordinate(50, 30),
+        start: new Blockly.utils.Coordinate(70, 50),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(50, 70),
+        start: new Blockly.utils.Coordinate(20, 50),
         damage: 99,
         name: targetName,
         code: 'playerTarget',
@@ -209,13 +209,13 @@ function getAvatarData() {
     // Level 3.
     [
       {
-        start: new Blockly.utils.Coordinate(20, 20),
+        start: new Blockly.utils.Coordinate(50, 80),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(20 + 42.4264, 20 + 42.4264),
+        start: new Blockly.utils.Coordinate(50, 20),
         damage: 0,
         name: targetName,
         code: 'playerTarget',
@@ -254,7 +254,7 @@ function getAvatarData() {
     // Level 6.
     [
       {
-        start: new Blockly.utils.Coordinate(10, 50),
+        start: new Blockly.utils.Coordinate(90, 50),
         damage: 0,
         name: playerName,
         code: null,

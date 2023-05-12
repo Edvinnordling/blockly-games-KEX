@@ -1,6 +1,6 @@
 {
 	"@metadata": {
-		"lastupdated": "2022-09-06 03:50:28.039245",
+		"lastupdated": "2023-05-08 16:23:51.113355",
 		"locale": "en",
 		"messagedocumentation": "qqq"
 	},
@@ -257,7 +257,7 @@
 	"Pond.pendulumName": "Pendulum",
 	"Pond.scaredName": "Scared",
 	"Pond.helpUseScan": "Your solution works, but you can do better. Use 'scan' to tell the cannon how far to shoot.",
-	"Pond.helpText1": "Use the 'cannon' command to hit the target. The first parameter is the angle, the second parameter is the range. Find the right combination.",
+	"Pond.helpText1": "slghslgjsegjesilfjeail",
 	"Pond.helpText2": "This target needs to be hit many times. Use a 'while (true)' loop to do something indefinitely.",
 	"Pond.helpText3a": "This opponent moves back and forth, making it hard to hit. The 'scan' expression returns the exact range to the opponent in the specified direction.",
 	"Pond.helpText3b": "This range is exactly what the 'cannon' command needs to fire accurately.",
