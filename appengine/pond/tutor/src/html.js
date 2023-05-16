@@ -29,7 +29,9 @@ ${BlocklyGames.html.headerBar(ij, BlocklyGames.getMsg('Games.pondTutor', true), 
 ${Pond.html.visualization()}
 
 ${Pond.Tutor.html.toolbox_(ij.level)}
-<div id="${ij.level % 2 ? 'blockly' : 'editor'}"></div>
+<div id="${ // Här väljs om leveln ska vara blockbaserat eller textbaserat
+  ij.level % 2 ? 'blockly' : 'editor'
+}"></div>
 
 ${Pond.Tutor.html.playerTarget_()}
 ${Pond.Tutor.html.playerPendulum_()}
@@ -49,7 +51,7 @@ ${Pond.Tutor.html.helpDialogs_(ij.level)}
  * @returns {string} HTML.
  * @private
  */
-Pond.Tutor.html.toolbox_ = function(level) {
+Pond.Tutor.html.toolbox_ = function(level) { // Här väljs vilka tools som ska användas!
   let xml;
   const scanBlock = level >= 5 ? `
   <block type="pond_scan">
@@ -95,7 +97,7 @@ Pond.Tutor.html.toolbox_ = function(level) {
   ${getXYBlocks}
 </category>
 `;
-  if (level >= 3) {
+  if (level >= 5) {
     const ifBlock = level >= 9 ? '<block type="controls_if"></block>' : '';
     const compareBlock = level >= 9 ? '<block type="logic_compare"></block>' : '';
     xml += `
