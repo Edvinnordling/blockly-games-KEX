@@ -116,7 +116,7 @@ function init() {
     containerCode.parentNode.removeChild(containerCode);
 
     let defaultCode;
-    if (BlocklyGames.LEVEL === 8) {
+    if (BlocklyGames.LEVEL === 8) {// TODO: gogo gaga
       defaultCode = 'swim(0);';
     } else {
       defaultCode = 'cannon(0, 70);';
@@ -239,43 +239,43 @@ function getAvatarData() {
     // Level 5.
     [
       {
-        start: new Blockly.utils.Coordinate(90, 50),
+        start: new Blockly.utils.Coordinate(20, 50),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(50, 50),
+        start: new Blockly.utils.Coordinate(60, 40),
         damage: 0,
-        name: pendulumName,
-        code: 'playerPendulum',
+        name: targetName,
+        code: 'playerTarget',
       }
     ],
     // Level 6.
     [
       {
-        start: new Blockly.utils.Coordinate(90, 50),
+        start: new Blockly.utils.Coordinate(20, 50),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(50, 50),
+        start: new Blockly.utils.Coordinate(60, 40),
         damage: 0,
-        name: pendulumName,
-        code: 'playerPendulum',
+        name: targetName,
+        code: 'playerTarget',
       }
     ],
     // Level 7.
     [
       {
-        start: new Blockly.utils.Coordinate(20, 80),
+        start: new Blockly.utils.Coordinate(95, 50),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(80, 20),
+        start: new Blockly.utils.Coordinate(5, 50),
         damage: 99,
         name: targetName,
         code: 'playerTarget',
@@ -284,29 +284,29 @@ function getAvatarData() {
     // Level 8.
     [
       {
-        start: new Blockly.utils.Coordinate(50, 90),
+        start: new Blockly.utils.Coordinate(95, 50),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(50, 10),
+        start: new Blockly.utils.Coordinate(5, 50),
         damage: 99,
-        name: pendulumName,
-        code: 'playerPendulum',
+        name: targetName,
+        code: 'playerTarget',
       }
     ],
     // Level 9.
     [
       {
-        start: new Blockly.utils.Coordinate(5, 50),
+        start: new Blockly.utils.Coordinate(95, 50),
         damage: 99,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(95, 50),
-        damage: 0,
+        start: new Blockly.utils.Coordinate(5, 50),
+        damage: 95,
         name: targetName,
         code: 'playerTarget',
       }
@@ -314,16 +314,16 @@ function getAvatarData() {
     // Level 10.
     [
       {
-        start: new Blockly.utils.Coordinate(10, 10),
-        damage: 50,
+        start: new Blockly.utils.Coordinate(95, 50),
+        damage: 99,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(40, 40),
-        damage: 0,
-        name: scaredName,
-        code: 'playerScared',
+        start: new Blockly.utils.Coordinate(5, 50),
+        damage: 95,
+        name: targetName,
+        code: 'playerTarget',
       }
     ],
   ][BlocklyGames.LEVEL - 1];
