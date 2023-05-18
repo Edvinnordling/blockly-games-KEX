@@ -341,23 +341,23 @@ Pond.endBattle = function(survivors) {
   } else if (survivors === 1) {
     // Winner.
     if (Pond.Battle.RANK[0].visualizationIndex === 0) {
-      if ((BlocklyGames.LEVEL === 5 || BlocklyGames.LEVEL === 6) &&
-          Pond.Battle.ticks > 200000) {
-        // Avatar just pinged Pendulum to death with fixed range.
-        // Use 'scan', dummy.
-        const content = BlocklyGames.getElementById('helpUseScan');
-        const style = {
-          'width': '30%',
-          'left': '35%',
-          'top': '12em',
-        };
-        BlocklyDialogs.showDialog(content, null, false, true, style,
-            BlocklyDialogs.stopDialogKeyDown);
-        BlocklyDialogs.startDialogKeyDown();
-      } else {
+      // if ((BlocklyGames.LEVEL === 5 || BlocklyGames.LEVEL === 6) &&
+      //     Pond.Battle.ticks > 200000) {
+      //   // Avatar just pinged Pendulum to death with fixed range.
+      //   // Use 'scan', dummy.
+      //   const content = BlocklyGames.getElementById('helpUseScan');
+      //   const style = {
+      //     'width': '30%',
+      //     'left': '35%',
+      //     'top': '12em',
+      //   };
+      //   BlocklyDialogs.showDialog(content, null, false, true, style,
+      //       BlocklyDialogs.stopDialogKeyDown);
+      //   BlocklyDialogs.startDialogKeyDown();
+      // } else {
         BlocklyInterface.saveToLocalStorage();
         BlocklyCode.congratulations();
-      }
+      // }
     }
   } else {
     // Timeout.
