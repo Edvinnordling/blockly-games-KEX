@@ -63,7 +63,7 @@ Pond.Tutor.html.toolbox_ = function(level) { // Här väljs vilka tools som ska 
     </value>
   </block>
 ` : '';
-  const swimBlock = level >= 7 ? `
+  const swimBlock = level >= 5 ? `
   <block type="pond_swim">
     <value name="DEGREE">
       <shadow type="pond_math_number">
@@ -73,8 +73,8 @@ Pond.Tutor.html.toolbox_ = function(level) { // Här väljs vilka tools som ska 
     </value>
   </block>
 ` : '';
-  const stopBlock = level >= 9 ? '<block type="pond_stop"></block>' : '';
-  const getXYBlocks = level >= 9 ? '<block type="pond_getX"></block><block type="pond_getY"></block>' : '';
+  const stopBlock = level >= 5 ? '<block type="pond_stop"></block>' : '';
+  const getXYBlocks = level >= 5 ? '<block type="pond_getX"></block><block type="pond_getY"></block>' : '';
   xml = `
 <category name="${BlocklyGames.getMsg('Games.pond', true)}">
   <block type="pond_cannon">
@@ -98,8 +98,8 @@ Pond.Tutor.html.toolbox_ = function(level) { // Här väljs vilka tools som ska 
 </category>
 `;
   if (level >= 5) {
-    const ifBlock = level >= 9 ? '<block type="controls_if"></block>' : '';
-    const compareBlock = level >= 9 ? '<block type="logic_compare"></block>' : '';
+    const ifBlock = level >= 5 ? '<block type="controls_if"></block>' : '';
+    const compareBlock = level >= 5 ? '<block type="logic_compare"></block>' : '';
     xml += `
 <category name="${BlocklyGames.getMsg('Games.catLogic', true)}">
   ${ifBlock}
