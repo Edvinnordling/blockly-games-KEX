@@ -34,6 +34,7 @@ ${Pond.Tutor.html.toolbox_(ij.level)}
 }"></div>
 
 ${Pond.Tutor.html.playerTarget_()}
+${Pond.Tutor.html.playerParallel_()}
 ${Pond.Tutor.html.playerPendulum_()}
 ${Pond.Tutor.html.playerScared_()}
 
@@ -352,6 +353,15 @@ Pond.Tutor.html.helpDialogs_ = function(level) {
 Pond.Tutor.html.playerTarget_ = function() {
   return `
 <div id="playerTarget" style="display: none">
+</div>
+`;
+};
+
+Pond.Tutor.html.playerParallel_ = function() {
+  return `
+<div id="playerParallel" style="display: none">
+/* Move north */
+swim(90);
 </div>
 `;
 };

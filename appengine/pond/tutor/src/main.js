@@ -269,31 +269,31 @@ function getAvatarData() {
     // Level 7.
     [
       {
-        start: new Blockly.utils.Coordinate(95, 50),
+        start: new Blockly.utils.Coordinate(40, 5),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(5, 50),
-        damage: 99,
+        start: new Blockly.utils.Coordinate(60, 5),
+        damage: 65,
         name: targetName,
-        code: 'playerTarget',
+        code: 'playerParallel',
       }
     ],
     // Level 8.
     [
       {
-        start: new Blockly.utils.Coordinate(95, 50),
+        start: new Blockly.utils.Coordinate(40, 5),
         damage: 0,
         name: playerName,
         code: null,
       },
       {
-        start: new Blockly.utils.Coordinate(5, 50),
-        damage: 99,
+        start: new Blockly.utils.Coordinate(60, 5),
+        damage: 65,
         name: targetName,
-        code: 'playerTarget',
+        code: 'playerParallel',
       }
     ],
     // Level 9.
