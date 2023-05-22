@@ -175,48 +175,14 @@ Pond.Tutor.html.helpDialogs_ = function(level) {
       break;
     case 3:
       content = `
-        ${BlocklyGames.getMsg('Pond.helpText2', true)}
+        ${BlocklyGames.getMsg('Pond.helpText1', true)}
         <br><br>
-        <svg height=92 width=250 class="geras-renderer classic-theme">
+        <svg height=41 width=250 class="geras-renderer classic-theme">
           <g>
-            <path transform="translate(1,1)" fill="#498449" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 50 H 162.94 v 36 H 50 l -6,4 -3,0 -6,-4 h -7 a 8,8 0 0,0 -8,8 v 9 a 8,8 0 0,0 8,8 H 50 H 50 v 25 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 129.08,5 h -60.71 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 60.71 z"></path>
-            <path fill="#5ba55b" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 50 H 162.94 v 36 H 50 l -6,4 -3,0 -6,-4 h -7 a 8,8 0 0,0 -8,8 v 9 a 8,8 0 0,0 8,8 H 50 H 50 v 25 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 129.08,5 h -60.71 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 60.71 z"></path>
-            <path class="blocklyPathLight" stroke="#8cc08c" d="m 0.5,7.5 A 7.5,7.5 0 0,1 8,0.5 H 15 l 6,4 3,0 6,-4 H 49.5 M 49.5,0.5 H 162.44 M 49.5,36.5 M 21.98,59.01 a 8.5,8.5 0 0,0 6.01,2.48 H 49.5 M 49.5,61.5 H 49.5 M 2.69,83.3 A 7.5,7.5 0 0,1 0.5,78 V 8 M 129.58,5.5 v 27 h -60.71 M 63.27,24.3 l 3.68,-2.1"></path>
-            <text class="blocklyText" y="12.5" transform="translate(10,10)">while&#160;(</text>
-            <text class="blocklyText" y="12.5" transform="translate(139.08,10)">)&#160;{</text>
-            <text class="blocklyText" y="12.5" transform="translate(10,66)">}</text>
-            <g transform="translate(69.37,6)">
-              <path transform="translate(1,1)" fill="#496684" d="m 0,0 H 58.71 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
-              <path fill="#5b80a5" d="m 0,0 H 58.71 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
-              <path class="blocklyPathLight" stroke="#8ca6c0" d="m 0.5,0.5 H 58.21 M 58.21,0.5 M 0.5,24.5 V 18.5 m -7.36,-0.5 q -1.52,-5.5 0,-11 m 7.36,1 V 0.5 H 1"></path>
-              <g class="blocklyEditableText" transform="translate(10,5)" style="cursor: default;">
-                <rect rx="4" ry="4" x="-5" y="0" height="16" width="48.71"></rect>
-                <text class="blocklyText" y="12.5" text-anchor="start" x="0">true
-                <tspan style="fill: rgb(91, 128, 165);"> ▾</tspan></text>
-              </g>
-            </g>
-          </g>
-        </svg>
-        `;
-      break;
-    case 4:
-      content = `
-        ${BlocklyGames.getMsg('Pond.helpText2', true)}
-        <pre>while (true) {
-        &nbsp;&nbsp;...
-        }</pre>
-        `;
-      break;
-    case 5:
-      content = `
-        ${BlocklyGames.getMsg('Pond.helpText3a', true)}
-        <br><br>
-        <svg height=37 width=250 class="geras-renderer classic-theme">
-          <g transform="translate(8,0)">
-            <path transform="translate(1,1)" fill="#7a4984" d="m 0,0 H 20 H 132.76 v 36 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z M 107.88,5 h -36.02 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 36.02 z"></path>
-            <path fill="#995ba5" d="m 0,0 H 20 H 132.76 v 36 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z M 107.88,5 h -36.02 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 36.02 z"></path>
-            <path class="blocklyPathLight" stroke="#b88cc0" d="m 0.5,0.5 H 19.5 M 19.5,0.5 H 132.26 M 0.5,35.5 V 18.5 m -7.36,-0.5 q -1.52,-5.5 0,-11 m 7.36,1 V 0.5 H 1 M 108.38,5.5 v 27 h -36.02 M 66.76,24.3 l 3.68,-2.1"></path>
-            <g transform="translate(72.86,6)">
+            <path transform="translate(1,1)" fill="#7a4984" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 222.36 v 36 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 125.01,5 h -36.02 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 36.02 z M 193.4,5 h -38.31 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 38.31 z"></path>
+            <path fill="#995ba5" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 40 H 222.36 v 36 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 125.01,5 h -36.02 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 36.02 z M 193.4,5 h -38.31 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 38.31 z"></path>
+            <path class="blocklyPathLight" stroke="#b88cc0" d="m 0.5,7.5 A 7.5,7.5 0 0,1 8,0.5 H 15 l 6,4 3,0 6,-4 H 39.5 M 39.5,0.5 H 221.86 M 2.69,33.3 A 7.5,7.5 0 0,1 0.5,28 V 8 M 125.51,5.5 v 27 h -36.02 M 83.89,24.3 l 3.68,-2.1 M 193.9,5.5 v 27 h -38.31 M 149.99,24.3 l 3.68,-2.1"></path>
+            <g transform="translate(89.99,6)">
               <path transform="translate(1,1)" fill="#bdc2db" d="m 0,0 H 34.02 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
               <path fill="#bdc2db" d="m 0,0 H 34.02 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
               <path class="blocklyPathLight" stroke="#8c95c0" style="display: none;" d="m 0.5,0.5 H 33.52 M 33.52,0.5 M 0.5,24.5 V 18.5 m -7.36,-0.5 q -1.52,-5.5 0,-11 m 7.36,1 V 0.5 H 1"></path>
@@ -226,21 +192,62 @@ Pond.Tutor.html.helpDialogs_ = function(level) {
                 <tspan>°</tspan></text>
               </g>
             </g>
-            <text class="blocklyText" y="12.5" transform="translate(10,10)">scan</text>
-            <text class="blocklyText" y="12.5" transform="translate(50.97,10)">(</text>
-            <text class="blocklyText" y="12.5" transform="translate(117.88,10)">)</text>
+            <g transform="translate(156.09,6)">
+              <path transform="translate(1,1)" fill="#bdc2db" d="m 0,0 H 36.31 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
+              <path fill="#bdc2db" d="m 0,0 H 36.31 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
+              <path class="blocklyPathLight" stroke="#8c95c0" style="display: none;" d="m 0.5,0.5 H 35.81 M 35.81,0.5 M 0.5,24.5 V 18.5 m -7.36,-0.5 q -1.52,-5.5 0,-11 m 7.36,1 V 0.5 H 1"></path>
+              <g class="blocklyEditableText" transform="translate(10,5)" style="cursor: text;">
+                <rect rx="4" ry="4" x="-5" y="0" height="16" width="26.31"></rect>
+                <text class="blocklyText" y="12.5">70</text>
+              </g>
+            </g>
+            <text class="blocklyText" y="12.5" transform="translate(10,10)">cannon</text>
+            <text class="blocklyText" y="12.5" transform="translate(68.11,10)">(</text>
+            <text class="blocklyText" y="12.5" transform="translate(135.01,10)">,</text>
+            <text class="blocklyText" y="12.5" transform="translate(203.4,10)">);</text>
           </g>
         </svg>
-        <br><br>
-        ${BlocklyGames.getMsg('Pond.helpText3b', true)}
         `;
+      break;
+    case 4:
+      content = `
+        ${BlocklyGames.getMsg('Pond.helpText1', true)}
+        <pre>cannon(0, 70);</pre>
+        `;
+      break;
+    case 5:
+      content = `
+      ${BlocklyGames.getMsg('Pond.helpText2', true)}
+      <br><br>
+      <svg height=92 width=250 class="geras-renderer classic-theme">
+        <g>
+          <path transform="translate(1,1)" fill="#498449" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 50 H 162.94 v 36 H 50 l -6,4 -3,0 -6,-4 h -7 a 8,8 0 0,0 -8,8 v 9 a 8,8 0 0,0 8,8 H 50 H 50 v 25 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 129.08,5 h -60.71 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 60.71 z"></path>
+          <path fill="#5ba55b" d="m 0,8 A 8,8 0 0,1 8,0 H 15 l 6,4 3,0 6,-4 H 50 H 162.94 v 36 H 50 l -6,4 -3,0 -6,-4 h -7 a 8,8 0 0,0 -8,8 v 9 a 8,8 0 0,0 8,8 H 50 H 50 v 25 H 29.5 l -6,4 -3,0 -6,-4 H 8 a 8,8 0 0,1 -8,-8 z M 129.08,5 h -60.71 v 5 c 0,10 -8,-8 -8,7.5 s 8,-2.5 8,7.5 v 7 h 60.71 z"></path>
+          <path class="blocklyPathLight" stroke="#8cc08c" d="m 0.5,7.5 A 7.5,7.5 0 0,1 8,0.5 H 15 l 6,4 3,0 6,-4 H 49.5 M 49.5,0.5 H 162.44 M 49.5,36.5 M 21.98,59.01 a 8.5,8.5 0 0,0 6.01,2.48 H 49.5 M 49.5,61.5 H 49.5 M 2.69,83.3 A 7.5,7.5 0 0,1 0.5,78 V 8 M 129.58,5.5 v 27 h -60.71 M 63.27,24.3 l 3.68,-2.1"></path>
+          <text class="blocklyText" y="12.5" transform="translate(10,10)">while&#160;(</text>
+          <text class="blocklyText" y="12.5" transform="translate(139.08,10)">)&#160;{</text>
+          <text class="blocklyText" y="12.5" transform="translate(10,66)">}</text>
+          <g transform="translate(69.37,6)">
+            <path transform="translate(1,1)" fill="#496684" d="m 0,0 H 58.71 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
+            <path fill="#5b80a5" d="m 0,0 H 58.71 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z"></path>
+            <path class="blocklyPathLight" stroke="#8ca6c0" d="m 0.5,0.5 H 58.21 M 58.21,0.5 M 0.5,24.5 V 18.5 m -7.36,-0.5 q -1.52,-5.5 0,-11 m 7.36,1 V 0.5 H 1"></path>
+            <g class="blocklyEditableText" transform="translate(10,5)" style="cursor: default;">
+              <rect rx="4" ry="4" x="-5" y="0" height="16" width="48.71"></rect>
+              <text class="blocklyText" y="12.5" text-anchor="start" x="0">true
+              <tspan style="fill: rgb(91, 128, 165);"> ▾</tspan></text>
+            </g>
+          </g>
+        </g>
+      </svg>
+      `;
       break;
     case 6:
       content = `
-        ${BlocklyGames.getMsg('Pond.helpText3a', true)}
-        <pre>scan(0)</pre>
-        ${BlocklyGames.getMsg('Pond.helpText3b', true)}
-        `;
+        ${BlocklyGames.getMsg('Pond.helpText2', true)}
+        <pre>while (true) {
+          &nbsp;&nbsp;...
+          }</pre>
+          `;
       break;
     case 7:
       content = `
@@ -276,7 +283,7 @@ Pond.Tutor.html.helpDialogs_ = function(level) {
       break;
     case 9:
       content = `
-        ${BlocklyGames.getMsg('Pond.helpText5', true)}
+        ${BlocklyGames.getMsg('Pond.helpText4', true)}
         <br><br>
         <svg height=37 width=250 class="geras-renderer classic-theme">
           <g transform="translate(8,0)">
@@ -322,7 +329,7 @@ Pond.Tutor.html.helpDialogs_ = function(level) {
       break;
     case 10:
       content = `
-        ${BlocklyGames.getMsg('Pond.helpText6', true)}
+        ${BlocklyGames.getMsg('Pond.helpText4', true)}
         <pre>getX() &lt; 50</pre>
         <pre>stop();</pre>
         `;

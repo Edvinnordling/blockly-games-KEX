@@ -1,6 +1,6 @@
 {
 	"@metadata": {
-		"lastupdated": "2023-05-08 16:23:51.113355",
+		"lastupdated": "2023-05-22 14:35:47.774394",
 		"locale": "en",
 		"messagedocumentation": "qqq"
 	},
@@ -257,12 +257,12 @@
 	"Pond.pendulumName": "Pendulum",
 	"Pond.scaredName": "Scared",
 	"Pond.helpUseScan": "Your solution works, but you can do better. Use 'scan' to tell the cannon how far to shoot.",
-	"Pond.helpText1": "slghslgjsegjesilfjeail",
+	"Pond.helpText1": "Use the 'cannon' command to hit the target. The first parameter is the angle, the second parameter is the range. Find the right combination.",
 	"Pond.helpText2": "This target needs to be hit many times. Use a 'while (true)' loop to do something indefinitely.",
 	"Pond.helpText3a": "This opponent moves back and forth, making it hard to hit. The 'scan' expression returns the exact range to the opponent in the specified direction.",
 	"Pond.helpText3b": "This range is exactly what the 'cannon' command needs to fire accurately.",
-	"Pond.helpText4": "This opponent is too far away to use the cannon (which has a limit of 70 meters). Instead, use the 'swim' command to start swimming towards the opponent and crash into it.",
-	"Pond.helpText5": "This opponent is also too far away to use the cannon. But you are too weak to survive a collision. Swim towards the opponent while your horizontal location is less than than 50. Then 'stop' and use the cannon.",
+	"Pond.helpText4": "This opponent is swimming away. Use the swim command to follow it and a while loop with the cannon command to hit it simultaneously",
+	"Pond.helpText5": "This opponent is too far away to use the cannon, and you are too weak to survive a collision. Swim towards the opponent while your horizontal location is less than than 50. Then 'stop' and use the cannon.",
 	"Pond.helpText6": "This opponent will move away when it is hit. Swim towards it if it is out of range (70 meters).",
 	"Gallery": "Gallery"
 }

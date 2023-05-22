@@ -1013,7 +1013,7 @@
   },
   "Pond.helpText1": {
     "desc": "Instructions. Do not translate the word 'cannon'.",
-    "msg": "slghslgjsegjesilfjeail"
+    "msg": "Use the 'cannon' command to hit the target. The first parameter is the angle, the second parameter is the range. Find the right combination."
   },
   "Pond.helpText2": {
     "desc": "Instructions.  Do not translate 'while (true)'.",
@@ -1029,11 +1029,11 @@
   },
   "Pond.helpText4": {
     "desc": "Instructions.  Do not translate the word 'swim'.",
-    "msg": "This opponent is too far away to use the cannon (which has a limit of 70 meters). Instead, use the 'swim' command to start swimming towards the opponent and crash into it."
+    "msg": "This opponent is swimming away. Use the swim command to follow it and a while loop with the cannon command to hit it simultaneously"
   },
   "Pond.helpText5": {
     "desc": "Instructions.  Do not translate the word 'stop'.",
-    "msg": "This opponent is also too far away to use the cannon. But you are too weak to survive a collision. Swim towards the opponent while your horizontal location is less than than 50. Then 'stop' and use the cannon."
+    "msg": "This opponent is too far away to use the cannon, and you are too weak to survive a collision. Swim towards the opponent while your horizontal location is less than than 50. Then 'stop' and use the cannon."
   },
   "Pond.helpText6": {
     "desc": "Instructions.",
