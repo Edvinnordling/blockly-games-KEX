@@ -75,7 +75,7 @@ function init() {
         'damage,health,loc_x,getX,loc_y,getY,');
 
     let defaultXml;
-    if (BlocklyGames.LEVEL === 7) {
+    if (BlocklyGames.LEVEL > 6) {
       defaultXml =
         '<xml>' +
           '<block type="pond_swim" x="70" y="70">' +
@@ -116,7 +116,7 @@ function init() {
     containerCode.parentNode.removeChild(containerCode);
 
     let defaultCode;
-    if (BlocklyGames.LEVEL === 8) {// TODO: gogo gaga
+    if (BlocklyGames.LEVEL > 7 ) {
       defaultCode = 'swim(0);';
     } else {
       defaultCode = 'cannon(0, 70);';
