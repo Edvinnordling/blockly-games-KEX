@@ -1,9 +1,6 @@
 ![Blockly Games](https://raw.githubusercontent.com/wiki/google/blockly-games/title.png)
 
-Google's Blockly Games is a series of educational games that teach programming.
-It is based on the [Blockly](https://developers.google.com/blockly/) library.
-All code is free and open source.
 
-**The games are available at https://blockly.games/**
+This is an edited version of blockly games. Only the Pond Tutor part of the application has been changed. To run the Pond Tutor, download the repository and open blockly-games-KEX/appengine/pond-tutor.html with your web-browser.
 
-**The developer's site is at https://github.com/google/blockly-games/wiki**
+The original blockly games github repository can be found at: https://github.com/google/blockly-games
